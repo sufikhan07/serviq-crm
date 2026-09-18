@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import "./index.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://serviq-api.onrender.com";
 
 const emptyForm = {
   customer_name: "",
